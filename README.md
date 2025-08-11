@@ -70,3 +70,68 @@ Software testing can be compared to a health check-up for software before it is 
 
 ** Compatibility Testing – Verifies operation across different devices, browsers, and operating systems.
 
+## WEEK THREE
+
+## Concept and Importance of Static Testing
+
+** Static testing is a method of evaluating software without actually running the code. Instead, the focus is on examining and reviewing requirements, design documents, or source code to find errors early in the development process.
+
+## It is important because it:
+
+** Detects defects before the software is executed, which saves time and cost.
+
+** Ensures coding standards and guidelines are followed.
+
+** Improves the quality of both the code and documentation.
+
+** Example: A developer reviews another team member’s code for potential logic mistakes or security flaws before the program is tested dynamically.
+
+## Walkthroughs, Technical Reviews, and Inspections
+   These are formal approaches within static testing, each with a different level of depth and structure:
+
+** Walkthrough – An informal review where the author of a document or code explains it to peers to gather feedback. Purpose: Share understanding and get suggestions.
+
+** Technical Review – A more formal process where technical experts examine code or documents to identify defects and suggest improvements, often guided by a checklist.
+
+** Inspection – The most formal type, with defined roles (author, moderator, reviewers, recorder) and structured steps to detect defects in detail. Often used for critical software components.
+
+## Role of Static Analysis Tools
+
+** Static analysis tools automatically scan code without running it to detect:
+
+** Syntax errors
+
+** Security vulnerabilities
+
+** Performance issues
+
+** Violations of coding standards
+
+** These tools help developers identify problems early, reduce human error in manual reviews, and ensure consistency across the project.
+
+## Key Benefits of Using Static Analysis Tools
+
+  Using these tools provides several advantages:
+
+** Early Bug Detection – Issues are caught before testing or deployment.
+
+** Improved Code Quality – Helps enforce coding standards and best practices.
+
+** Time and Cost Savings – Reduces the need for extensive rework later.
+
+** Security Enhancement – Flags potential vulnerabilities before they become threats.
+
+## Popular Static Analysis Tools and Their Features
+  
+   Some widely used tools include:
+
+** SonarQube – Detects code smells, bugs, and security vulnerabilities; supports multiple languages.
+
+** ESLint – Popular in JavaScript projects; enforces coding style and catches syntax issues.
+
+** Pylint – Checks Python code for errors, style violations, and best practices.
+
+** Checkstyle – Ensures Java code adheres to coding standards.
+
+Fortify Static Code Analyzer – Focuses on identifying security vulnerabilities in code.
+Consistent Reviews – Maintains uniform quality across the development team.
